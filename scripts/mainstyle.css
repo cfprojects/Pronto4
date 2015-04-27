@@ -1,0 +1,187 @@
+body{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+.clippedContent{
+	height: 400px;
+	overflow: scroll;
+	width: 920px;
+}
+
+.mainHeader{
+	
+	height: 100px;
+	color: #FFFFFF;
+	background-color: #5280FF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+}
+
+.mainHeader .headerText{
+	padding-top: 45px;
+	padding-left: 20px;
+}
+
+.headerVersion{
+	font-size: 18pt;
+	color: #FFFFFF;
+}
+
+.mainContent{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	width: 800px;
+	padding: 10px 0px 0px 2px;
+}
+
+.mainNav{
+	background-color: #5280FF;
+	color: #FFFFFF;
+	border-style: solid;
+	border-color: #000000;
+	border-width: thin;
+}
+
+.welcome{
+	width: 600px;	
+	font-size: 10pt;
+	font-weight: bold;	
+}
+
+.strikeIt{
+	text-decoration: line-through;
+}
+
+.normalText{
+	font-size: 10pt;
+}
+
+.row{
+	display: table-row;
+	padding: 3px 0px 3px 0px;
+}
+
+.cell{
+	display: table-cell;
+	padding: 0px 5px 5px 5px;
+	margin: 0px 5px 5px 5px;
+	width: 100px;
+	vertical-align: top;
+}
+
+.rcell{
+	display: table-cell;
+	padding: 0px 5px 5px 5px;
+	margin: 0px 5px 5px 5px;
+	width: 280px;
+	vertical-align: top;
+}
+
+#itemGrid td{
+	padding: 5px 5px 5px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+#itemGrid th{
+	text-align: left;
+	background-color: #5280FF;
+	color: #FFFFFF;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+#itemGrid th a, a:active, a:hover, a:focus, a:link, a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;	
+}
+
+.btnLarge {
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	width: 150px;
+	padding: 3px 3px 3px 3px;
+	background-color: #00CC33;
+	margin: 3px 3px 3px 3px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.btnSmall {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 50px;
+	padding: 3px 10px 3px 10px;
+	background-color: #00CC33;
+	margin: 3px 3px 3px 3px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.headerDisplay{
+	font-size: 18pt;
+	margin-bottom: 15px;
+	color: #5280FF;
+}
+
+
+/* Beginning of the collapsible panel css */
+.CollapsiblePanel {
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	border-left: solid 1px #CCC;
+	border-right: solid 1px #999;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #CCC;
+}
+
+.CollapsiblePanelTab {
+	font: bold 0.7em sans-serif;
+	background-color: #5280FF;
+	border-bottom: solid 1px #CCC;
+	margin: 0px 0px 0px 5px;
+	width: 900px;
+	padding: 5px 5px 5px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #000000;
+	font-size: 9pt;
+	color: #FFFFFF;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+
+.CollapsiblePanelTab a {
+	color: black;
+	text-decoration: none;
+}
+
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-color: #5280FF;
+}
+
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	background-color: #B8CBFF;
+	color: #000000;
+}
+
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background-color: #3399FF;
+}
